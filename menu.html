@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegetarian Food Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px 0;
+    }
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .menu-container {
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .category {
+      background-color: white;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .category h2 {
+      color: #1b5e20;
+      border-bottom: 2px solid #a5d6a7;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+    .menu-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #eee;
+      padding: 12px 0;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    .menu-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .menu-info img {
+      width: 80px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .menu-info div {
+      display: flex;
+      flex-direction: column;
+    }
+    .menu-info h3 {
+      margin: 0;
+      font-size: 16px;
+      color: #333;
+    }
+    .menu-info p {
+      margin: 3px 0 0;
+      font-size: 13px;
+      color: #777;
+    }
+    .price {
+      font-weight: bold;
+      color: #2e7d32;
+      min-width: 60px;
+      text-align: right;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2e7d32;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌿 Green Garden Veg Restaurant</h1>
+    <p>Fresh | Healthy | Delicious</p>
+  </header>
+
+  <div class="menu-container">
+
+    <!-- Starters -->
+    <section class="category">
+      <h2>Starters</h2>
+      <div class="menu-item">
+        <div class="menu-info">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWEwWfozDKGmqySOPdhysUBUJCBHRs9mpH3nEa5NBYVcl9ZiDyDg-9kLoVt38CT7d3aSNgKVal6HTqEKdIYiOZl0J3J7SAxSKiRlx1QMHxwSR2PO8i0KbeYxNFP_v5BD70k1zUqvDnJ9BH/s1600/Paneer_Tikka_5.jpg" alt="Paneer Tikka">
+          <div>
+            <h3>Paneer Tikka</h3>
+            <p>Grilled cottage cheese cubes with spicy marinade</p>
+          </div>
+        </div>
+        <div class="price">₹250</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-info">
+          <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Crispy-Aloo-Tikki.jpg" alt="Aloo Tikki">
+          <div>
+            <h3>Aloo Tikki</h3>
+            <p>Fried potato cutlets served with chutneys</p>
+          </div>
+        </div>
+        <div class="price">₹150</div>
+      </div>
+    </section>
+
+    <!-- Main Course -->
+    <section class="category">
+      <h2>Main Course</h2>
+      <div class="menu-item">
+        <div class="menu-info">
+          <img src="https://www.cookwithmanali.com/wp-content/uploads/2019/04/Restaurant-Style-Dal-Makhani.jpg" alt="Dal Makhani">
+          <div>
+            <h3>Dal Makhani</h3>
+            <p>Rich buttery lentils cooked overnight</p>
+          </div>
+        </div>
+        <div class="price">₹220</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-info">
+          <img src="https://www.cookwithmanali.com/wp-content/uploads/2019/08/Palak-Paneer.jpg" alt="Palak Paneer">
+          <div>
+            <h3>Palak Paneer</h3>
+            <p>Fresh spinach blended with cottage cheese</p>
+          </div>
+        </div>
+        <div class="price">₹240</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-info">
+          <img src="https://www.sharmispassions.com/wp-content/uploads/2022/03/VegBiryani3.jpg" alt="Veg Biryani">
+          <div>
+            <h3>Vegetable Biryani</h3>
+            <p>Fragrant rice cooked with seasonal vegetables</p>
+          </div>
+        </div>
+        <div class="price">₹280</div>
+      </div>
+    </section>
+
+    <!-- Breads -->
+    <section class="category">
+      <h2>Breads</h2>
+      <div class="menu-item">
+        <div class="menu-info">
+          <img src="https://foodess.com/wp-content/uploads/2023/02/Butter-Naan-3.jpg" alt="Butter Naan">
+          <div>
+            <h3>Butter Naan</h3>
+            <p>Soft flatbread brushed with butter</p>
+          </div>
+        </div>
+        <div class="price">₹50</div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-info">
+          <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/tandoori-roti-recipe.jpg" alt="Tandoori Roti">
+          <div>
+            <h3>Tandoori Roti</h3>
+            <p>Whole wheat roti baked in clay oven</p>
+          </div>
+        </div>
+        <div class="price">₹30</div>
+      </div>
+    </section>
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Green Garden Veg Restaurant | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
